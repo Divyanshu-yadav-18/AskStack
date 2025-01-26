@@ -2,7 +2,6 @@ import { IndexType, Permission } from "node-appwrite";
 
 import { db, questionCollection } from "../name";
 import { databases } from "./config";
-import { permission } from "process";
 
 export default async function createQuestionCollection(){
     await databases.createCollection(db, questionCollection, questionCollection,[
