@@ -2,7 +2,7 @@ import { answerCollection, db } from "@/models/name";
 import { databases, users } from "@/models/server/config";
 import { NextRequest, NextResponse } from "next/server";
 import { ID } from "node-appwrite";
-import { UserPrefs } from "@/store/auth";
+import { UserPrefs } from "@/store/Auth";
 
 export async function POST(request: NextRequest){
     try{

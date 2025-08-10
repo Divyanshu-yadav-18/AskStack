@@ -1,5 +1,5 @@
 "use client"
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/store/Auth";
 import { useRouter } from "next/router";
 import React from "react";
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/store/Auth";
 import React, { useState } from "react";
 
 function RegisterPage(){
